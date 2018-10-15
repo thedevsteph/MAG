@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300')
+
+body{
+  margin: 0 auto;
+  padding: 0px 250px;
+}
+
+.data-container{
+  display: inline-block;
+  padding: 10px 22px;
+}
+
+.single-image:hover{
+  filter:grayscale(100%);
+}
+
+.magazineCovers{
+  display: inline-block;
+}
+
+.mainCoverDiv{
+  display: inline-block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+.single-date{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.single-image{
+  height: 280px;
+  width: 200px;
+  display: grid;
+  grid-gap: 50px 100px;
+}
+
+.title > h1{
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 140px;
+  padding: 20px 0px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.title > h1:hover{
+  color: grey;
+}
