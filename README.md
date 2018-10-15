@@ -1,6 +1,6 @@
 # Le Catalogue
 
-![alt text]("Le-Catalogue/display.png")
+![alt text]("https://github.com/stephfash/Le-Catalogue/blob/master/display.png?raw=true")
 
 A minimalistic front-end React App that holds information on the latest Vogue issues. Data is sourced from [Conde Nast's engineering API](https://code.condenast.co.uk/docs/covers-api)
 
